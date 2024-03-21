@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"/>
+    <title>Encriptador Alienigena</title>
+</head>
+<body>
+
+        <header>
+            <img class="logo" src="/imagenes/Logo.png" alt="Logo alura">
+        </header>
+
+        <main>
+            <section class="seccion1">
+                <div class="contenedor_ingrese">
+                    <textarea placeholder="Ingrese el texto aqui" class="cajatexto"></textarea>
+                </div>
+
+                <div class="alerta">
+                    <img src="/imagenes/alert.svg" alt="Alerta">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+
+                <div class="Contenedor_botones">
+                    <input type="button" class="bttn-encriptar" value="Encriptar">
+                    <input type="button" class="bttn-desencriptar" value="Desencriptar">
+                </div>
+
+
+            </section>
+
+            <section class="seccion2"> 
+                <div class="contenedor_alien">
+                    <img src="/imagenes/pulpos.gif" alt="alien">
+                </div>
+                    <div class="contenedor_texto">
+                    <h3> Ningún mensaje fue <br> encontrado </h3>
+                    <p>Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+                 </div>
+                
+
+                <div class="contenedor-copiar">
+                     <input type="button" class="bttn-copiar" value="Copiar">
+                </div>
+
+                <div class="contenedor-resultado">
+                    <p class="texto_resultado"></p>
+                </div>
+                
+            </section>
+            
+
+        </main>
+        <script src="script.js"></script>
+</body>
+</html>
